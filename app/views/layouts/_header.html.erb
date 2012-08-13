@@ -1,0 +1,28 @@
+<header>
+
+  <div class="logo">
+    <p>юридическая компания</p>
+    <h1>AL GROUP</h1>
+  </div>
+
+  <div class="top">
+    <%= link_to "о компании", page_path('about') %> / 
+    <%= link_to "контактная информация", page_path('contacts') %>
+    <div class="info">
+      тел. +380 (01) 120 34 50, факс +380 (01) 542 24 65</br>
+      <a href="mailto:hello@algroup.com.ua">hello@algroup.com.ua</a><br/>
+    </div>
+  </div>
+
+  <div style="clear:both;"></div>
+
+  <nav class="main">
+    <ul>
+     <li><%= link_to "Юридические услуги", page_path('services') %></li>
+     <li><%= link_to "Регистрация/Ликвидация", page_path('registration_liquidation') %></li>
+     <li><%= link_to "Бухгалтерское сопровождение", page_path('accounting') %></li>
+     <li><%= link_to "Цены", page_path('prices') %></li>
+    </ul>
+  </nav>
+
+</header>

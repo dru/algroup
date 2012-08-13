@@ -1,0 +1,109 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; color: #000000;
+  font-family: Times, serif;
+  width: 1024px;
+  margin: auto;
+  font-size: 1.1em;
+}
+
+header {
+  margin-top:20px;
+  clear: both;
+  display: block;
+  border: 1px solid rgb(255, 255, 255);
+
+  border-bottom: 2px dashed rgb(153, 153, 153);
+}
+
+footer {
+  margin-top:10px;
+  clear: both;
+  display: block;
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255);
+
+  border-top: 2px dashed rgb(153, 153, 153);
+}
+
+.top {
+  float: right;
+  text-align: center;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  margin:0;
+  padding:0;
+  h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    margin:0;
+    padding:0;
+  }
+  p {
+    text-align: center;
+    margin:0;
+    padding:0;
+  }
+}
+
+.info {
+  margin-top: 15px;
+  width: 400px;
+  border: 1px dashed rgb(153, 153, 153);
+  padding: 10px;
+  color: rgb(153, 153, 153);
+}
+
+.grey {
+  color: rgb(153, 153, 153);
+}
+
+a {
+  color: rgb(0, 102, 153);
+}
+
+nav {
+  margin-top: 10px;
+  ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    text-align: center;
+  }
+
+  li {
+    padding: 30px;
+    font-size: 20px;
+    display: inline-block;
+  }
+}
+
+
+.content {
+
+  padding:20px;
+  margin:0;
+
+  li {
+    padding: 4px;
+  }
+
+  .section {
+    width: 450px;
+    float: left;
+  }
+}
+
+.block {
+  text-indent: 30px;
+}
