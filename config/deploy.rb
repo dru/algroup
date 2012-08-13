@@ -1,3 +1,5 @@
+require 'bundler/capistrano'
+
 set :application, 'algroup'
 set :deploy_to, "/home/#{application}/www/"
 
@@ -15,5 +17,4 @@ set :keep_releases, 2
 
 require 'capistrano-unicorn'
 require 'rvm/capistrano'
-require 'bundler/capistrano'
 require 'capistrano_colors'
