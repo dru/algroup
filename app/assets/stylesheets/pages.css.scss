@@ -1,109 +1,175 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-body
-{
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff; color: #000000;
-  font-family: Times, serif;
-  width: 1024px;
-  margin: auto;
-  font-size: 1.1em;
-}
-
-header {
-  margin-top:20px;
-  clear: both;
-  display: block;
-  border: 1px solid rgb(255, 255, 255);
-
-  border-bottom: 2px dashed rgb(153, 153, 153);
-}
-
-footer {
-  margin-top:10px;
-  clear: both;
-  display: block;
-  padding: 20px;
-  border: 1px solid rgb(255, 255, 255);
-
-  border-top: 2px dashed rgb(153, 153, 153);
-}
-
-.top {
-  float: right;
-  text-align: center;
-}
-
-.logo {
-  float: left;
-  width: 200px;
-  margin:0;
-  padding:0;
-  h1 {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 36px;
-    margin:0;
-    padding:0;
-  }
-  p {
-    text-align: center;
-    margin:0;
-    padding:0;
-  }
-}
-
-.info {
-  margin-top: 15px;
-  width: 400px;
-  border: 1px dashed rgb(153, 153, 153);
-  padding: 10px;
-  color: rgb(153, 153, 153);
-}
-
-.grey {
-  color: rgb(153, 153, 153);
+body {
+  font-family: arial, tahoma, verdana;
 }
 
 a {
-  color: rgb(0, 102, 153);
+  color: #000;
+  text-decoration: none;
 }
 
-nav {
-  margin-top: 10px;
-  ul {
-    list-style-type: none;
-    padding:0;
-    margin:0;
-    text-align: center;
-  }
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
 
-  li {
-    padding: 30px;
-    font-size: 20px;
-    display: inline-block;
-  }
+.text {
+  font-size: 12px;
+  font-family: arial, helvetica, sans-serif;
 }
 
 
-.content {
-
-  padding:20px;
-  margin:0;
-
-  li {
-    padding: 4px;
-  }
-
-  .section {
-    width: 450px;
-    float: left;
-  }
+.shrift2 {
+  font-size: 14px;  
 }
 
-.block {
-  text-indent: 30px;
+.menu-text {
+  font-size: 16px;
+  background-color:#fff;
+}
+
+.menu-text:link {
+  font-size: 16px;
+  background-color:#fff;
+}
+
+.menu-text:visited {
+  font-size: 16px;
+  background-color:#fff;
+}
+
+.menu-text:hover {
+  font-size: 16px;
+  background-color:#fff;
+}
+
+.menu-text2{
+  font-size: 16px;
+  background-color:#fff;
+}
+
+.adress {
+  font-size: 14px;
+  color:#666;
+  text-decoration: none;
+}
+
+.adress-mail {
+  font-size: 12px;
+  color:#666 ;
+}
+
+.adress-mail:link {
+  font-size: 12px;
+   color:#666 ;
+}
+
+.adress-mail:visited {
+  font-size: 12px; 
+  color:#666 ; 
+}
+
+.adress-mail:hover {
+  font-size: 12px; 
+  text-decoration:underline; color:#666 ; 
+}
+
+.menu {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.menu:link {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.menu:visited {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.menu:hover {
+  background-color: #ff3;
+  font-size: 14px;
+}
+
+.menu-wibranoe {
+  background-color: #ff3;
+  font-size: 14px;
+}
+
+.menu-pravoe {
+  font-size: 13px;
+  color: #e9e9e9;
+}
+
+.menu-pravoe:link {
+  font-size: 13px;
+  color: #e9e9e9;
+}
+.menu-pravoe:visited {
+  font-size: 13px;
+  color: #e9e9e9;
+}
+
+.menu-pravoe:hover {
+  font-size: 13px;
+  color: #e9e9e9;
+  text-decoration:underline;
+}
+
+.menu-levoe-razdely {
+  font-size: 14px;
+  color: #575757;
+}
+
+.menu-levoe-razdely:link {
+  font-size: 14px;
+  color: #575757;
+}
+
+.menu-levoe-razdely:visited {
+  font-size: 14px;
+  color: #575757;
+}
+
+.menu-levoe-razdely:hover {
+  font-size: 14px;
+  color: #c3c;
+}
+
+.niz {
+  color:#000;
+  font-size: 9px;
+}
+
+.niz:link{
+  color:#000;
+  font-size: 9px;
+}
+
+.niz:visited { 
+  color:#000;
+  font-size: 9px;
+}
+
+.niz:hover {
+  color:#f3c;
+  font-size: 9px;
+}
+
+.niz-niz {
+  color:#000;
+  font-size: 9px;
+}
+
+.serij-text {
+  color:#999;
+  font-size: 20px;
+}
+
+.straniza-zaglawie {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 30px;
+  color:#000;
 }

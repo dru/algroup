@@ -1,73 +1,75 @@
-<h2>Общая информация о «АЛ Груп»</h2>
-<div class="block">
-  Главный принцип в работе «АЛ Груп» - мы строим Вам бизнес как для себя. Именно поэтому мы предпочитаем индивидуальный подход. В этом случае, каждый наш специалист сможет в полной мере передать Вам имеющийся опыт, а также предостеречь от неправильных капиталовложений и существенно снизить риск неудач при организации бизнеса. Кроме того, Вы можете выбрать дальнейшее бизнес сопровождение, которое станет Вашим страховым полисом и позволит до минимума сократить  возможные риски.
-</div>
+<script type="text/javascript">
+  function theRotator() {
+   $('div#rotator div').css({opacity: 0.0});
+   $('div#rotator div:first').css({opacity: 1.0});
+   setInterval('rotate()',4000);
+  }
 
-<div class="section">
-  <h3>Юридические услуги</h3>
-  <ul>
-    <li>Юридический аутсорсинг </li>
-    <li>Юридическое обслуживание </li>
-    <li>Представительство в суде </li>
-    <li>Подготовка и изучение договоров  </li>
-    <li>Семейное право</li>
-    <li>Ведение учета частных предпринимателей </li>
-    <li>Помощь в решении хозяйственных споров </li>
-    <li>Претензионно-исковая деятельность </li>
-    <li>Недвижимость</li>
-    <li><h3>Юридические консультации</h3>
-  </ul>
-</div>
+  function rotate() { 
+   var current = ($('div#rotator div.show')? $('div#rotator div.show') : $('div#rotator div:first'));
+   var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div#rotator div:first') :current.next()) : $('div#rotator div:first')); 
+   next.css({opacity: 0.0})
+   .addClass('show')
+   .animate({opacity: 1.0}, 1000);
+   current.animate({opacity: 0.0}, 1000)
+   .removeClass('show');
+  };
 
-<div class="section">
-  <h3>Услуги адвоката</h3>
-  <ul>
-    <li>Уголовные дела</li>
-    <li>Недвижимость</li>
-    <li>Взыскание задолженности</li>
-    <li>Расторжение брака</li>
-    <li>Раздел имущества</li>
-    <li>Семейные споры</li>
-    <li>Помощь при ДТП</li>
-    <li>Жилищные споры</li>
-    <li>Трудовые споры</li>
-    <li>Страховые споры</li>
-    <li>Наследование имущества</li>
-    <li>Налоговые споры</li>
-    <li>Защита прав потребителей</li>
-  </ul>
-</div>
+  $(document).ready(function() { 
+   theRotator();
+  });
+</script>
 
-<div class="section">
-  <h2>Бухгалтерское сопровождение</h2>
-  <ul>
-    <li>Работа в 1С</li>
-    <li>Создание базы в 1С</li>
-    <li>Обработка и ведение хозяйственных операций в 1С</li>
-    <li>Консультации по бухгалтерскому и налоговому учёту (устные)</li>
-    <li>Проверка правильности оформления первичной документации
-        <ul>
-        <li>Проверка выписанной документации клиентам</li>
-        <li>Проверка приходной документации от поставщиков </li>
-        </ul>
-    </li>
-    <li>Прохождение проверок за ведомый период
-      <ul>
-        <li>Налоговых</li>
-        <li>Встречных</li>
-        <li>Фондов социального страхования</li>
-      </ul>
-    </li>
-    <li>Недвижимость</li>
-  </ul>
-</div>
+<style type="text/css">
+ div#rotator div { position:absolute;}
+</style>
 
-<div class="section">
-  <h2>Регистрация и ликвидация</h2>
-  <ul>
-    <li>Регистрация предприятий всех организационно-правовых форм и их структурных подразделений</li>
-    <li>Внесение изменений в данные о предприятии; </li>
-    <li>Реорганизация, ликвидация  </li>
-    <li>Регистрация физических лиц - предпринимателей (СПДФЛ)   </li>
-  </ul>
-</div>
+<table width="800"  height="326" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="600" height="326"   valign="top">
+      <div id="rotator">
+        <div class="show"><%= image_tag "1.jpg" %></div>
+        <div><%= image_tag "2.jpg" %></div>
+        <div><%= image_tag "3.jpg" %></div>
+        <div><%= image_tag "4.jpg" %></div>
+      </div>
+    </td>
+    <td width="21" align="center" valign="top"></td>
+    <td width="179" align="center" valign="top">
+
+    <table width="100%" height="100%"   border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+        <td width="16" height="153" align="left" valign="middle" bgcolor="#04466B" > <table   width="90%"   align="center" cellpadding="0" cellspacing="0"    >
+          <tr>
+            <td valign="top">
+         <a href="registrazija-likvidazija.html" target="_self"  class="menu-pravoe" > Регистрация / ликвидация<br> предприятий всех организационно-правовых форм и их структурных подразделений</a>
+
+            </td>
+          </tr>
+        </table><br></td>
+      </tr>
+      <tr>
+        <td height="10"></td>
+      </tr>
+      <tr>
+        <td height="147" valign="middle" bgcolor="#404041" >
+
+
+        <table   width="90%"   align="center" cellpadding="0" cellspacing="0"    >
+          <tr valign="middle">
+            <td> <a href="jur-obslugivanie.html" target="_self"  class="menu-pravoe" >   Претензионно-исковая деятельность, юридический аутсорсинг, консультации</a>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+
+        </td>
+      </tr>
+
+      <tr>
+
+      </tr>
+    </table></td>
+  </tr>
+</table>
