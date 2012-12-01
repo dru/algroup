@@ -4,6 +4,7 @@ Algroup::Application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
+  match '/' => "pages#index"
   match '/(:page)' => "pages#show", page: 'index', as: 'page'
 
   # The priority is based upon order of creation:
