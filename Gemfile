@@ -8,6 +8,8 @@ gem 'rails', '3.2.7'
 gem 'sqlite3'
 
 gem 'activeadmin'
+gem 'active_admin_editor'
+
 gem 'meta_search', '>= 1.1.0.pre'
 
 # Gems used only for assets and not required
@@ -41,6 +43,7 @@ end
 
 # Use unicorn as the app server
 gem 'unicorn'
+gem 'thin'
 
 # Deploy with Capistrano
 # gem 'capistrano'
